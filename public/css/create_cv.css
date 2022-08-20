@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+
+.form-block {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1000px !important;
+    width: 100%;
+    margin: 0 auto;
+}
+.form__box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.form__input {
+    width: 100%;
+}
+.form__textarea {
+    resize: none;
+    height: 200px !important;
+}
+.employer__form,
+.education__form,
+.experience__form{
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 5px;
+    box-shadow: 0 10px 15px rgba(0,0,0, .1);
+    padding: 20px;
+}
+
+.form__title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form-error {
+    border: 2px solid #e74c3c !important;
+}
+.errors_cv {
+    padding: 20px !important;
+}
+
+.form__btn {
+    box-shadow: 0 10px 15px rgba(0,0,0, .1);
+    margin-bottom: 10px;
+}
+
+.education__table-header > tr{
+    display: flex;
+    /*grid-template-columns: 1fr 1fr;*/
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+input {
+    width: 100%;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    overflow: hidden;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color: #3490dc;
+    color: #ffffff;
+    text-align: center;
+}
+.styled-table thead tr th {
+    text-align: center;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+    font-size: 17px;
+    max-width: 350px;
+    word-wrap: break-word;
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+    text-align: center;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #e1e1e1;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #3490dc;
+}
+.select2-selection__rendered {
+    line-height: 31px !important;
+}
+.select2-container .select2-selection--single {
+    height: 36px !important;
+    width: 100% !important;
+}
+.select2-selection__arrow {
+    height: 34px !important;
+}
+/*.styled-table tbody tr:hover {*/
+/*    font-weight: bold;*/
+/*    color: #009879;*/
+/*}*/
+
+.form-group label span {
+    color: red !important;
+}
